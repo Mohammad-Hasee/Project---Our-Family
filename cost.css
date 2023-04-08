@@ -1,0 +1,35 @@
+
+.button{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 80%;
+  }
+  .tab-1{
+    width: 100%;
+    text-align: center;
+  }
+  .tab-2{
+    margin-top: 50px;
+  }
+  .tab-2 input{
+    display: block;
+    margin-bottom: 10px
+  }
+  tr{
+    transition:all .25s ease-in-out
+  }
+  tr:hover{
+    background-color:#EEE;
+    cursor: pointer
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  

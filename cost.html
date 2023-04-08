@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cost.css">
+        <title>Cost Amount</title>
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="tab-1">
+            <h1>Daily Grocery Expenses</h1>
+            Date :<input type="date" name="date" id="date">
+            Day :<select name="Day" id="day">
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+              </select>
+            Person :<input type="text" name="a" id="a">
+            Cost :<input type="number" name="b" min="0" max="10000" id="b">
+            
+          </div>
+            <div class="button">
+              <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+            <button onclick="saveSelectForm();">save</button>
+            </div>
+
+            <div class="tab-2">
+                <h1>Expenses Amount</h1>
+        <table id="table" Border="1">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Day</th>
+              <th>Person</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+        </table>
+            </div>
+        </div>
+        
+        <script src="cost.js"></script>
+        
+    </body>
+</html>

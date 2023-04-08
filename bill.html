@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bill.css">
+    <title>finaly</title>
+</head>
+<body>
+    <div class="main">
+        <div class="total">
+            <div class="gas">
+                <form>
+                    Gas Bill during the month:<input type="text" id="firstNumber" /><br><br>
+                    Gas Bill paid by per persons:<input type="text" id="secondNumber" /><br><br>
+                    <input type="button" id="button" onClick="gasBillBy()" Value="Gas Bill" />
+                    </form>
+            </div>
+            <div class="cng" id="majic">
+                <span id = "result"></span>
+                <div class="one" id="move"><h1>Gas Bill</h1></div>
+            </div>
+            <div class="electricity">
+                <form>
+                    Electricity Bill during the month:<input type="text" id="thirdNumber" /><br><br>
+                    Electricity Bill paid by per persons:<input type="text" id="fourthNumber" /><br><br>
+                    <input type="button" id="buttona" onClick="electricityBillBy()" Value="Electricity Bill" />
+                    </form>
+            </div>
+            <div class="current" id="majic">
+                <span id = "reesult"></span>
+                <div class="four" id="move"><h1>Electricity Bill</h1></div>
+            </div>
+            <div class="internet">
+                <form>
+                    Internet Bill during the month:<input type="text" id="fifthNumber" /><br><br>
+                    Internet Bill paid by per persons:<input type="text" id="sixthNumber" /><br><br>
+                    <input type="button" id="buttonb" onClick="internetBillBy()" Value="Internet Bill" />
+                    </form>
+            </div>
+            <div class="wifi" id="majic">
+                <span id = "resuult"></span>
+                <div class="five" id="move"><h1>Internet</h1></div>
+                <div class="six" id="move"><h1>Bill</h1></div>
+            </div>
+            <div class="utilities">
+                <form>
+                    Utilities Bill during the month:<input type="text" id="seventhNumber" /><br><br>
+                    Utilities Bill paid by per persons:<input type="text" id="eightNumber" /><br><br>
+                    <input type="button" id="buttonc" onClick="utilitiesBillBy()" Value="Utilities Bill" />
+                    </form>
+            </div>
+            <div class="trash" id="majic">
+                <span id = "resultt"></span>
+                <div class="eight" id="move"><h1>Utilities Bill</h1></div>
+            </div>
+        </div>
+    </div>
+    <script src="bill.js"></script>
+</body>
+</html>

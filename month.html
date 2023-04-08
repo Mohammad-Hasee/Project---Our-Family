@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="month.css">
+        <title>Payment for During Month</title>
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="tab-1">
+            <h1>Payment for During Month</h1>
+            Name :<select name="name" id="name">
+                <option value="Mohammad">Mohammad</option>
+                <option value="Haseeb">Haseeb</option>
+                <option value="Rahman">Rahman</option>
+                <option value="Redoy">Redoy</option>
+                <option value="Badsha">Badsha</option>
+              </select>
+            Actual Amount :<input type="number" name="a" min="0" max="5000" id="a">
+            Payment Amount :<input type="number" name="b" min="0" max="5000" id="b"><br><br>
+            Excess or Less :<input type="number" name="c" min="0" max="5000" id="c">
+            
+          </div>
+            <div class="button">
+              <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+            <button onclick="saveSelectForm();">save</button>
+            </div>
+
+            <div class="tab-2">
+                <h1>Payment monthly sheet</h1>
+        <table id="table" Border="1">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Actual Amount</th>
+              <th>Payment Amount</th>
+              <th>Excess or Less</th>
+            </tr>
+          </thead>
+        </table>
+            </div>
+        </div>
+        
+        <script src="month.js"></script>
+        
+    </body>
+</html>

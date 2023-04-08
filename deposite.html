@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="deposite.css">
+        <title>Deposited Money</title>
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="tab-1">
+            <h1>Money Deposited for Meal</h1>
+            Time :<select name="time" id="time">
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+            </select>
+            Mohammad :<input type="number" name="a" min="-3000" max="3000" id="a">
+            Haseeb :<input type="number" name="b" min="-3000" max="3000" id="b"><br><br>
+            Rahm :<input type="number" name="c" min="-3000" max="3000" id="c">
+            Redoy :<input type="number" name="d" min="-3000" max="3000" id="d">
+            Badsha :<input type="number" name="e" min="-3000" max="3000" id="e">
+            
+          </div>
+            <div class="button">
+            <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+            <button onclick="saveSelectForm();">save</button>
+            </div>
+
+            <div class="tab-2">
+            <h1>Deposited Amount</h1>
+        <table id="table" Border="1">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Mohammad</th>
+              <th>Haseeb</th>
+              <th>Rahm</th>
+              <th>Redoy</th>
+              <th>Badsha</th>
+            </tr>
+          </thead>
+        </table>
+            </div>
+        </div>
+        
+        <script src="deposite.js"></script>
+        
+    </body>
+</html>

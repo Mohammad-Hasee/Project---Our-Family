@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="payment.css">
+        <title>Payment Calculation</title>
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="tab-1">
+            <h1>Payment Calculation</h1>
+            Name :<select name="name" id="name">
+                <option value="Mohammad">Mohammad</option>
+                <option value="Haseeb">Haseeb</option>
+                <option value="Rahman">Rahman</option>
+                <option value="Redoy">Redoy</option>
+                <option value="Badsha">Badsha</option>
+              </select>
+            Total Meal :<input type="number" name="a" min="0" max="100" id="a">
+            Meal Rate :<input type="number" name="b" min="0" max="100" id="b">
+            Deposite Amount :<input type="number" name="c" min="0" max="5000" id="c">
+            Need To Pay :<input type="number" name="d" min="0" max="5000" id="d">
+            Excess or Less :<input type="number" name="e" min="0" max="5000" id="e">
+            
+          </div>
+            <div class="button">
+              <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+            <button onclick="saveSelectForm();">save</button>
+            </div>
+
+            <div class="tab-2">
+                <h1>Payment Calculation</h1>
+        <table id="table" Border="1">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Total Meal</th>
+              <th>Meal Rate</th>
+              <th>Deposite Amount</th>
+              <th>Need To Pay</th>
+              <th>Excess or Less</th>
+            </tr>
+          </thead>
+        </table>
+            </div>
+        </div>
+        
+        <script src="payment.js"></script>
+        
+    </body>
+</html>

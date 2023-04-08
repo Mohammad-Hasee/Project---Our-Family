@@ -1,0 +1,105 @@
+/*body{
+  margin: 0;
+}
+.parent{
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  overflow: hidden;
+}
+.one{
+  border: 1px solid black;
+  width:100px ;
+  height: 100px;
+  position: absolute;
+  right: 100%;
+  bottom: 100%;
+  animation-name: three;
+  transition-duration: 1s;
+  animation-duration: 20s;
+  transition-delay: 3s;
+  animation-delay: 5s;
+  animation-timing-function: ease-in-out;
+}
+.two{
+  border: 1px solid black;
+  width:100px ;
+  height: 100px;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  animation-name: four;
+  transition-duration: 1s;
+  animation-duration: 20s;
+  transition-delay: 3s;
+  animation-delay: 5s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes three{
+  from{left: 35%; }
+  to {bottom: 50%; left: 37%;}
+}
+
+@keyframes four{
+  from{left: 35%;}
+  to {top: 50%; left:37%;}
+}*/
+
+
+
+
+body{
+  margin: 0;
+}
+.parent{
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  /*overflow: hidden;*/
+}
+.one{
+  border: 1px solid black;
+  width:100px ;
+  height: 100px;
+  position: absolute;
+  right: 100%;
+  top: 75%;
+  animation-name: three;
+  transition-duration: 1s;
+  animation-duration: 5s;
+  transition-delay: 3s;
+  /*animation-delay: 5s;*/
+  animation-timing-function: ease-in-out;
+}
+.two{
+  border: 1px solid black;
+  width:100px ;
+  height: 100px;
+  position: absolute;
+  right: 100%;
+  top: 75%;
+  animation-name: four;
+  transition-duration: 1s;
+  animation-duration: 5s;
+  transition-delay: 3s;
+  /*animation-delay: 5s;*/
+  animation-timing-function: ease-in-out;
+}
+@keyframes three{
+  0%{bottom: 0px; right: 0px;}
+  25% {right:0px; bottom:0px;}
+  50% {top:0px; right:0px;}
+  75% {left:0px; top:0px;}
+  100%{bottom:0px; left:0px;}
+}
+
+/*@keyframes four{
+  from{bottom: 0px;}
+  to {top: 0px;}
+}*/

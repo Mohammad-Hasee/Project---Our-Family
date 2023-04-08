@@ -1,0 +1,303 @@
+
+body {
+    margin: 0px;
+    padding-top: 50px;
+    }
+    form{
+        font-size:20px;
+    }
+    #firstNumber{
+        height: 40px;
+        width: 80px;
+        border: 1px solid black;
+        font-size: 30px;
+        text-align: center;
+    }
+    #secondNumber{
+        height: 40px;
+        width: 80px;
+        border: 1px solid black;
+        font-size: 30px;
+        text-align: center;
+    }
+    #thirdNumber{
+      height: 40px;
+      width: 80px;
+      border: 1px solid black;
+      font-size: 30px;
+      text-align: center;
+  }
+  #fourthNumber{
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+#fifthNumber{
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+#sixthNumber{
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+#seventhNumber{
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+#eightNumber{
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+    #button{
+        height: 60px;
+        width: 130px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #buttona{
+      height: 60px;
+      width: 130px;
+      font-size: 20px;
+      text-align: center;
+  }
+  #buttonb{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    text-align: center;
+}
+#buttonc{
+  height: 60px;
+  width: 130px;
+  font-size: 20px;
+  text-align: center;
+}
+
+    .gas{
+        height: 250px;
+        width: 350px;
+        top: 50px;
+        left: 0px;
+    }
+    .cng{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 50px;
+        left: 450px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 250px;
+        overflow: hidden;
+        font-size: 50px;
+        font-family: Arial, Black;
+    }
+    .electricity{
+        height: 250px;
+        width: 380px;
+        position: absolute;
+        top: 50px;
+        left: 830px;
+    }
+    .current{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 250px;
+        overflow: hidden;
+        font-size: 50px;
+        font-family: Arial, Black;
+    }
+    .internet{
+        height: 250px;
+        width: 350px;
+        position: absolute;
+        top: 400px;
+        left: 0px;
+    }
+    .wifi{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 400px;
+        left: 450px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 250px;
+        overflow: hidden;
+        font-size: 50px;
+        font-family: Arial, Black;
+    }
+    .utilities{
+        height: 250px;
+        width: 370px;
+        position: absolute;
+        top: 400px;
+        left: 830px;
+    }
+    .trash{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 400px;
+        right: 0px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 250px;
+        overflow: hidden;
+        font-size: 50px;
+        font-family: Arial, Black;
+    }
+
+    #button:hover{
+        background-color: darkgreen;
+    }
+
+    .one{
+      border: 1px solid black;
+      background-image: linear-gradient(to right top, #38d0cd, #38d4d2, #37d7d7, #37dbdd, #37dfe2);
+      width:150px ;
+      height: 60px;
+      position: absolute;
+      right: 100%;
+      bottom: 76%;
+      animation-name: one;
+      transition-duration: 1s;
+      animation-duration: 20s;
+      transition-delay: 5s;
+      animation-delay: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      font-size: 10px;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+    }
+    .four{
+      border: 1px solid black;
+      background-image: linear-gradient(to right top, #0a5eda, #0651d0, #0644c5, #0a36ba, #0f27ae);
+      width:248px ;
+      height: 60px;
+      position: absolute;
+      left: 0%;
+      top: 100%;
+      animation-name: four;
+      transition-duration: 1s;
+      animation-duration: 20s;
+      transition-delay: 5s;
+      animation-delay: 25s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      font-size: 10px;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+    .five{
+      border: 1px solid black;
+      background-image: linear-gradient(to right top, #065e1c, #075d18, #075b13, #085a0d, #095807);
+      width:100px ;
+      height: 80px;
+      position: absolute;
+      right: 100%;
+      bottom: 68%;
+      animation-name: five;
+      transition-duration: 1s;
+      animation-duration: 20s;
+      transition-delay: 5s;
+      animation-delay: 15s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      font-size: 10px;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+    }
+    .six{
+      border: 1px solid black;
+      background-image: linear-gradient(to right top, #9f0b0b, #aa0f0f, #b41312, #bf1616, #ca1a1a);
+      width:100px ;
+      height: 80px;
+      position: absolute;
+      top: 100%;
+      left: 60%;
+      animation-name: six;
+      transition-duration: 1s;
+      animation-duration: 20s;
+      transition-delay: 5s;
+      animation-delay: 15s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      font-size: 10px;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+    }
+    .eight{
+      border: 1px solid black;
+      background-image: linear-gradient(to right top, #ca1ca6, #d023af, #d62ab8, #dc31c2, #e237cb);
+      width:100px ;
+      height: 60px;
+      position: absolute;
+      right: 100%;
+      top: 75%;
+      animation-name: eight;
+      transition-duration: 1s;
+      animation-duration: 20s;
+      transition-delay: 5s;
+      animation-delay: 35s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate-reverse;
+      font-size: 10px;
+      text-align: center;
+      line-height: 20px;
+      color: white;
+    }
+
+    @keyframes one{
+      0%{left: 0px; top: 0px;}
+      25% {left:100px; top:0px;}
+      50% {left:100px; top:190px;}
+      75% {left:0px; top:190px;}
+      100%{left:0px; top:0px;}
+    }
+    @keyframes four{
+      from{bottom: 0px;}
+      to {top: 0px;}
+    }
+    @keyframes five{
+      from{left: 0px;}
+      to {bottom: 0px; left: 0px;}
+    }
+    
+    @keyframes six{
+      from{bottom: 0px;}
+      to {top: 0px;}
+    }
+    @keyframes eight{
+      0%{left: 0px; top: 0px;}
+      25% {left:150px; top:0px;}
+      50% {left:150px; top:190px;}
+      75% {left:0px; top:190px;}
+      100%{left:0px; top:0px;}
+    }

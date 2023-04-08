@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="rent.css">
+        <title>House Rent calculation</title>
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="tab-1">
+            <h1>House Rent Calculation</h1>
+            Name :<select name="name" id="name">
+                <option value="Mohammad">Mohammad</option>
+                <option value="Haseeb">Haseeb</option>
+                <option value="Rahman">Rahman</option>
+                <option value="Redoy">Redoy</option>
+                <option value="Badsha">Badsha</option>
+              </select>
+            Gas Bill :<input type="number" name="gas" min="0" max="500" id="g">
+            Electricity Bill :<input type="number" name="electricity" min="0" max="500" id="e">
+            Internet Bill :<input type="number" name="internet" min="0" max="500" id="i"><br><br>
+            House Rent :<input type="number" name="house" min="0" max="5000" id="h">
+            Utilities Bill :<input type="number" name="utilities" min="0" max="1000" id="u">
+            Total House Rent :<input type="number" name="rent" min="0" max="6000" id="t">
+            
+          </div>
+            <div class="button">
+            <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+            <button onclick="saveSelectForm();">save</button>
+            </div>
+
+            <div class="tab-2">
+                <h1>Total House Rent Calculation</h1>
+        <table id="table" Border="1">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Gas Bill</th>
+              <th>Electricity Bill</th>
+              <th>Internet Bill</th>
+              <th>House Rent</th>
+              <th>Utilities Bill</th>
+              <th>Total House Rent</th>
+            </tr>
+          </thead>
+        </table>
+            </div>
+        </div>
+        
+        <script src="rent.js"></script>
+        
+    </body>
+</html>

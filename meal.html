@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="meal.css">
+        <title>Meal Calculation</title>
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="tab-1">
+            <h1>Daily Meal Calculation</h1>
+            Date :<input type="date" name="date" id="date">
+            Day :<select name="Day" id="day">
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+            Mohammad :<input type="number" name="a" min="0" max="10" id="a">
+            Haseeb :<input type="number" name="b" min="0" max="10" id="b">
+            Rahman :<input type="number" name="c" min="0" max="10" id="c">
+            Redoy :<input type="number" name="d" min="0" max="10" id="d">
+            Badsha :<input type="number" name="e" min="0" max="10" id="e">
+            
+          </div>
+            <div class="button">
+              <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+            <button onclick="saveSelectForm();">save</button>
+            </div>
+
+            <div class="tab-2">
+                <h1>Count Meal</h1>
+        <table id="table" Border="1">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Day</th>
+              <th>Mohammad</th>
+              <th>Haseeb</th>
+              <th>Rahman</th>
+              <th>Redoy</th>
+              <th>Badsha</th>
+            </tr>
+          </thead>
+        </table>
+            </div>
+        </div>
+        
+        <script src="meal.js"></script>
+        
+    </body>
+</html>
